@@ -5,4 +5,6 @@ import com.banking.bankingappspring.dto.Accountdto;
 public interface AccountService {
 
     Accountdto createAccount(Accountdto accountdto);
+
+    Accountdto getAccountById(Long id);
 }
